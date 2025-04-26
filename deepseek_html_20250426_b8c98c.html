@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solastice</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #2c2f33;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        h1 {
+            font-size: 70px;
+            background: linear-gradient(to right, #FF8C00, #FFB347, #FF8C00);
+            -webkit-background-clip: text;
+            color: transparent;
+            background-size: 300% 100%;
+            animation: gradientMove 3s infinite linear;
+        }
+        @keyframes gradientMove {
+            0% { background-position: 0% 50%; }
+            100% { background-position: 300% 50%; }
+        }
+        .discord-button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 20px;
+            color: white;
+            background-color: #5865F2;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background 0.3s;
+        }
+        .discord-button:hover {
+            background-color: #4752C4;
+        }
+        .contributors {
+            margin-top: 30px;
+            padding: 10px;
+            border: 2px solid white;
+            border-radius: 10px;
+        }
+        .contributors h2 {
+            margin-bottom: 10px;
+        }
+        .contributors a {
+            color: lightblue;
+            text-decoration: none;
+        }
+        .contributors a:hover {
+            text-decoration: underline;
+        }
+        .minecraft-text {
+            font-size: 16px;
+            color: white;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Solastice</h1>
+    <p class="minecraft-text">Minecraft SolsticeSkid Client</p>
+    <p> Eclipse V7 - Coming soon...</p>
+    <a href="https://discord.gg/VYyrtFX2ed" class="discord-button">Discord Server</a>
+    <a id="downloadBtn" href="https://github.com/onull9999/Eclipse/raw/refs/heads/main/Eclipse.dll" class="discord-button" download>Download click here</a>
+    <div class="contributors">
+        <h2>Dev</h2>
+        <p>@Tqk4Playz (<a href="https://github.com/Tqk4Playz">GitHub</a>)</p>
+        <p>@onull9999 (<a href="https://github.com/onull9999">GitHub</a>)</p>
+        <p>@Aspw (<a href="https://github.com/Aspw-w">GitHub</a>)</p>
+        <p>@owo (<a href="https://github.com/Ascend-UwU">GitHub</a>)</p>
+    </div>
+</body>
+</html>
